@@ -1,15 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=git , initial-scale=1.0">
-    <title>Document</title>
+    <title>cv</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/svg/icon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div id="avatar">
-    <img src="images/avatar.jpg" alt="avatar" class="avatar">
-    </div>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#education " class="nav-link">Education </a></li>
+                    <li class="nav-item"><a href="#english " class="nav-link">English </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="main">
+        <div class="container main-container">
+            <section id="profile" class="section">
+                <div id="avatar">
+                    <img src="assets/img/avatar.jpg" alt="photo" class="avatar">
+                </div>
+                <h1 class="section-title">
+                    Dmitriy Cravec
+                </h1>
+                <p>Junior front-end Developer</p>
+
+            </section>
+            <section id="summary" class="section">
+                <h2 class="section-title">About me</h2>
+                <p>I live in the Republic of Belarus.
+                    I am 32 years old, I work as an instrumentation and automation adjuster.
+                    I think that my real work has led me to the pinnacle of development in this specialty.
+                    I really need classes in which I can develop throughout my life. That's why I'm here.
+                    My goal is to gain knowledge in the field of front-end development and further backend.</p>
+            </section>
+            <section id="skills" class="section">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>GitHub</li>
+                    <li>JavaScript</li>
+                </ul>
+            </section>
+            <section id="code" class="section">
+                <h2 class="section-title">code example</h2>
+                <code id="code_exemple">alert('Hello')</code>
+            </section>
+            <section id="education" class="section">
+                <h2 class="section-title">Education</h2>
+                <h3>ee "gomel state professional tehnologikal lyceum"</h3>
+                <p>Electrician for repair and maintenance of electrical equipment</p>
+            </section>
+            <section id="courses" class="section">
+                <h2 class="section-title">Courses</h2>
+                <h3>Books</h3>
+                <ul>
+                    <li>Head First - HTML and CSS 2nd edition</li>
+                    <li>Head First - Learn HTML5 Programming</li>
+                </ul>
+                <h3>Rolling Scopes School</h3>
+                <ul>
+                    <li>«JavaScript/Front-end. Stage 0»</li>
+                </ul>
+            </section>
+            <section id="projects" class="section">
+                <h2 class="section-title">Projects</h2>
+                <h3>Head First</h3>
+                <ul>
+                    <li><a href="https://kravecdk.github.io/KravecDK/my_works/HTML_CSS/starbuzz/index.html" target="_blank">Starbuzz coffee</a></li>
+                    <li><a href="https://kravecdk.github.io/KravecDK/my_works/HTML_CSS/Head_First/lounge.html" target="_blank">Salon Head First</a></li>
+                    <li><a href="https://kravecdk.github.io/KravecDK/my_works/HTML_CSS/blog_tony/journal.html" target="_blank">Tony's Blog</a></li>
+                    <li><a href="https://kravecdk.github.io/KravecDK/my_works/HTML_CSS/mypod/index.html" target="_blank">myPod</a></li>
+                </ul>
+            </section>
+            <section id="english" class="section">
+                <h2 class="section-title">languages</h2>
+                <ul>
+                    <li>English - A2. Elementary</li>
+                    <li>Russian - С2. Mastery</li>
+                    <li>Belorussian - В2. Vantage</li>
+                </ul>
+            </section>
+
+        </div>
+
+    </main>
+
+
+    <footer class="footer">
+        <div id="github">
+            <a href="https://github.com/KravecDK" target="_blank"><img src="assets/svg/github_PNG58.png"
+                    alt="icons_github"></a>
+
+            <p>
+                The application was created on 2022
+            </p>
+        </div>
+        <div class="container">
+            <section id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <p>discord: iMaZa(@KravecDK)</p>
+                <p><a href="https://t.me/KravecDK" target="_blank">Telegram</a></p>
+                <p><a href="mailto:zik231@mail.ru" target="_blank">mail</a></p>
+            </section>
+        </div>
+        <div id="rs"><a href="https://rs.school/js/" target="_blank"><img src="assets/svg/rs_school_js.svg"
+                    alt="icons_rs.school"></a></div>
+    </footer>
 </body>
+
 </html>
