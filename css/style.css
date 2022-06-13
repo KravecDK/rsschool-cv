@@ -40,7 +40,7 @@ body {
     width: 50%;
     position: relative;
     padding:0px 30px;
-  }
+    }
   
   .section-title {
     font-size: 30px;
@@ -48,6 +48,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 5px;
     color: #0f0361;
+    border-top: solid grey 2px ;
   }
   .nav-list {
     display: flex;
@@ -92,10 +93,14 @@ body {
     display: flex;
   }
   #rs {
-    width: 250px;
+    padding: 20px;
+    width: 200px;
   }
   #github img {
     width: 100px;
+  }
+  #code_exemple {
+    background-color: white;
   }
   .footer h2 {
     color: #fc4801;
