@@ -51,7 +51,6 @@ body {
   }
   .nav-list {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
     list-style: none;
   }
@@ -63,7 +62,7 @@ body {
   }
   .link {
     text-decoration: none;
-    color: #ec1202;
+    color: #b46d03;
     transition: color 0.5s;
   }
   
@@ -71,13 +70,13 @@ body {
     color: #5d7260;
   }
   a {
-    color: #fd8700;
+    color: #b46d03;
     text-decoration: none;  
     transition: color 0.5s;
     
   }
   a:hover {
-    color: #e4c5c5;
+    color: #f82f2f;
   }
   .header {
     background: linear-gradient(90deg, #2d353f 0%, #838e99 100%);
@@ -86,10 +85,19 @@ body {
     background: linear-gradient(90deg, #2d353f50 0%, #838e9918 100%);
   }
   .footer {
-    color: #e3fc01;
+    color: #d5d6ff;
     padding:0px 30px;
     background: linear-gradient(90deg, #2d353f 0%, #838e99 100%);
+    font-size: 14px;
+    display: flex;
+  }
+  #rs {
+    width: 250px;
+  }
+  #github img {
+    width: 100px;
   }
   .footer h2 {
     color: #fc4801;
+    
   }
